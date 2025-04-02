@@ -9,7 +9,7 @@ public class NextLevelTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.gameObject.name);
-        if (other.gameObject.name == "Dante_Paraplegic")
+        if (other.gameObject.name == "Player")
         {
             SceneManager.LoadScene(toScene);
         }
